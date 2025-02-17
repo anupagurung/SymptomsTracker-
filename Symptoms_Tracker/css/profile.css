@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.profile-container {
+    background: white;
+    padding: 20px;
+    width: 50%;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #aaa;
+}
+
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.update-btn, .delete-btn {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.delete-btn {
+    background: #dc3545;
+}
